@@ -4,7 +4,7 @@ from decimal import Decimal, getcontext
 import time
 
 
-#Introduction to Terminology: Limit. The limit is the value of N, till where one wishes to compute the alternating Median abundancy index.
+#Introduction to Terminology: Limit. The limit is the value of N, till where one wishes to compute the median alternating abundancy index.
 #The higher the limit, the more better the value.
 #We set a precision of 100 decimals for accurate calculations.
 getcontext().prec = 100
@@ -39,7 +39,7 @@ def compute_median_index(limit):
     min_heap = []  #The heaps are used for finding the median.
     max_heap = []  
     
-    # Calculate specific powers of 10 to check. We print the progress of the alternating median abundancy index at 10^k, for k = 0,1,2..
+    # Calculate specific powers of 10 to check. We print the progress of the median alternating abundancy index at 10^k, for k = 0,1,2..
     log_checkpoints = [10**i for i in range(int(np.log10(limit)) + 1)]
     
     median_candidate = Decimal(0) #Start with a median of 0
