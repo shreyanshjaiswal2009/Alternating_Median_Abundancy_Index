@@ -1,5 +1,5 @@
 
-Regarding computations of the alternating median abundancy index. 
+Regarding computations of the Median Alternating abundancy index. 
 Please run "pip install requirements.txt" in order to install the necessary modules in Python before running the program. Not doing so may result in the program failing to compute.
 
 The program was run on Python version 3.11.9. To avoid any potential issues, we recommend having this version or higher.
