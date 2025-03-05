@@ -7,4 +7,7 @@ The program was run on Python version 3.11.9. To avoid any potential issues, we 
 Instructions for use. 
 Please look at Line 82 in the python program file. Change this value as per the instructions, in order to compute higher or lower.
 
+Results
+The file results.txt contain the results of our computation done till N = 10^7
+
 Acknowledgements. We thank Ekansh Jaiswal for helping us with the writing of the code.
