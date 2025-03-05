@@ -10,4 +10,4 @@ Please look at Line 82 in the python program file. Change this value as per the 
 Results
 The file results.txt contain the results of our computation done till N = 10^7
 
-Acknowledgements. We thank Ekansh Jaiswal for helping us with the writing of the code.
+Acknowledgements. We thank Ekansh Jaiswal (https://github.com/Ekansh-is-Pro) for helping us with the writing of the code.
